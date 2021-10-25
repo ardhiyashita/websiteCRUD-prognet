@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'oswald';
+    src: url("font/Oswald/Oswald-SemiBold");
+    font-family: 'montserrat';
+    src: url("font/Montserrat/Montserrat-Bold");
+}
+
+.center {
+    margin: auto;
+    padding: 10px;
+}
+
+body{
+    background-size: cover;
+    background-image: url('../foto/5630655.jpg');
+}
+
+h1{
+    font-family: 'montserrat';
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+tr:nth-child(even) {background-color: #ffff;}
+thead{
+    border-collapse: separate;
+    font-family: 'oswald';
+    background-color: rgb(255, 251, 134);
+    text-align: center;
+}
+
+tbody{
+    border-collapse: separate;
+    font-family: 'Lucida Sans';
+    text-align: center;
+    background-color: rgb(255, 254, 221);
+}
+
+.deskripsi{
+    text-align: left;
+}
+
+.nama_hewan{
+    width: 150px;
+}
+
+.jumlah_kaki{
+    width: 150px;
+}
